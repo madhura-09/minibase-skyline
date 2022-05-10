@@ -1,0 +1,236 @@
+Script started on Mon 15 Mar 2021 09:50:24 PM MST
+[?1034hbash-4.2$ make test
+cd tests; make userskyline #sortprefint sortpreftest skyline bmtest skyline sortpreftest 
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath .:.. TestDriver.java UserSkyline.java
+/usr/lib/jvm/java-15-openjdk/bin/java  -classpath .:.. tests.UserSkyline
+Replacer: Clock
+
+No. of cols in the data 5
+record count 7307
+Enter the number of pages
+10
+Enter the number of preference list length
+1
+Enter the preference attributes
+0
+java.lang.NullPointerException: Cannot assign field "slotNo" because "<local39>" is null
+	at tests.UserSkyline.read_from_file(UserSkyline.java:206)
+	at tests.UserSkyline.main(UserSkyline.java:427)
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+bash-4.2$ make test
+cd tests; make userskyline #sortprefint sortpreftest skyline bmtest skyline sortpreftest 
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath .:.. TestDriver.java UserSkyline.java
+/usr/lib/jvm/java-15-openjdk/bin/java  -classpath .:.. tests.UserSkyline
+Replacer: Clock
+
+No. of cols in the data 5
+record count 7307
+Enter the number of pages
+10
+Enter the number of preference list length
+8 5 1
+Enter the preference attributes
+0
+java.lang.NullPointerException: Cannot assign field "slotNo" because "<local39>" is null
+	at tests.UserSkyline.read_from_file(UserSkyline.java:206)
+	at tests.UserSkyline.main(UserSkyline.java:427)
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+bash-4.2$ make test}[K    }    UserSkyline.read_from_file("/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests/TestInputs/data3.txt","userskyline1.in");[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpublic static void main(String[] args){[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake db
+make -C global
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/global'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: PageId.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/global'
+make -C chainexception
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/chainexception'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/chainexception'
+make -C btree
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/btree'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/btree'
+make -C bufmgr
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/bufmgr'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/bufmgr'
+make -C diskmgr
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/diskmgr'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: DB.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/diskmgr'
+make -C heap
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/heap'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/heap'
+make -C index
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/index'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: IndexUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/index'
+make -C iterator
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/iterator'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/iterator'
+make -C skyline
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/skyline'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/skyline'
+bash-4.2$ make dbtest
+cd tests; make userskyline #sortprefint sortpreftest skyline bmtest skyline sortpreftest 
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath .:.. TestDriver.java UserSkyline.java
+/usr/lib/jvm/java-15-openjdk/bin/java  -classpath .:.. tests.UserSkyline
+Replacer: Clock
+
+No. of cols in the data 5
+record count 7307
+Enter the number of pages
+10
+Enter the number of preference list length
+1
+Enter the preference attributes
+0
+java.lang.NullPointerException: Cannot assign field "slotNo" because "<local39>" is null
+	at tests.UserSkyline.read_from_file(UserSkyline.java:206)
+	at tests.UserSkyline.main(UserSkyline.java:427)
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+bash-4.2$ make test[2Pdbtest
+cd tests; make userskyline #sortprefint sortpreftest skyline bmtest skyline sortpreftest 
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath .:.. TestDriver.java UserSkyline.java
+/usr/lib/jvm/java-15-openjdk/bin/java  -classpath .:.. tests.UserSkyline
+Replacer: Clock
+
+No. of cols in the data 5
+record count 7307
+Enter the number of pages
+10
+Enter the number of preference list length
+1
+Enter the preference attributes
+0
+java.lang.NullPointerException: Cannot assign field "slotNo" because "<local39>" is null
+	at tests.UserSkyline.read_from_file(UserSkyline.java:206)
+	at tests.UserSkyline.main(UserSkyline.java:427)
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+bash-4.2$ make test[2Pdb
+make -C global
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/global'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: PageId.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/global'
+make -C chainexception
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/chainexception'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/chainexception'
+make -C btree
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/btree'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/btree'
+make -C bufmgr
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/bufmgr'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/bufmgr'
+make -C diskmgr
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/diskmgr'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: DB.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/diskmgr'
+make -C heap
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/heap'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/heap'
+make -C index
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/index'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: IndexUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/index'
+make -C iterator
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/iterator'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/iterator'
+make -C skyline
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/skyline'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/skyline'
+bash-4.2$ make dbtest
+cd tests; make userskyline #sortprefint sortpreftest skyline bmtest skyline sortpreftest 
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath .:.. TestDriver.java UserSkyline.java
+/usr/lib/jvm/java-15-openjdk/bin/java  -classpath .:.. tests.UserSkyline
+Replacer: Clock
+
+No. of cols in the data 5
+record count 7307
+Enter the number of pages
+10
+Enter the number of preference list length
+1
+Enter the preference attributes
+0
+java.lang.NullPointerException: Cannot assign field "slotNo" because "<local39>" is null
+	at tests.UserSkyline.read_from_file(UserSkyline.java:206)
+	at tests.UserSkyline.main(UserSkyline.java:427)
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+bash-4.2$ make test[2Pdbtest
+cd tests; make userskyline #sortprefint sortpreftest skyline bmtest skyline sortpreftest 
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath .:.. TestDriver.java UserSkyline.java
+/usr/lib/jvm/java-15-openjdk/bin/java  -classpath .:.. tests.UserSkyline
+Replacer: Clock
+
+No. of cols in the data 5
+10
+record count 7307
+Enter the number of pages
+Enter the number of preference list length
+1
+Enter the preference attributes
+0
+java.lang.NullPointerException: Cannot assign field "slotNo" because "<local39>" is null
+	at tests.UserSkyline.read_from_file(UserSkyline.java:206)
+	at tests.UserSkyline.main(UserSkyline.java:427)
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/tests'
+bash-4.2$ make test[2Pdb
+make -C global
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/global'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: PageId.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/global'
+make -C chainexception
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/chainexception'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/chainexception'
+make -C btree
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/btree'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/btree'
+make -C bufmgr
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/bufmgr'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/bufmgr'
+make -C diskmgr
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/diskmgr'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+Note: DB.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+make[1]: Leaving directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/diskmgr'
+make -C heap
+make[1]: Entering directory '/afs/asu.edu/users/r/t/h/rthoraha/DBMSI/minjava/javaminibase/src/heap'
+/usr/lib/jvm/java-15-openjdk/bin/javac -classpath /usr/lib/jvm/java-15-openjdk/lib/classes.zip:.:..:/p/course/cs784-raghu/minibase_share/javaminibase/construction *.java
+make[1]: Leaving
